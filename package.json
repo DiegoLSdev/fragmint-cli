@@ -1,6 +1,6 @@
 {
   "name": "@fragmint/cli",
-  "version": "0.2.1",
+  "version": "0.1.2",
   "description": "Command-line client for Fragmint — search, save, and reuse code snippets from your terminal.",
   "type": "module",
   "bin": {
