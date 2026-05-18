@@ -1,0 +1,43 @@
+{
+  "name": "@fragmint/cli",
+  "version": "0.2.1",
+  "description": "Command-line client for Fragmint — search, save, and reuse code snippets from your terminal.",
+  "type": "module",
+  "bin": {
+    "fm": "src/index.js"
+  },
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "fragmint",
+    "snippets",
+    "cli",
+    "developer-tools"
+  ],
+  "author": "Fragmint",
+  "license": "UNLICENSED",
+  "homepage": "https://fragmint.dev",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiegoLSdev/fragmint-cli.git"
+  },
+  "bugs": {
+    "url": "mailto:dlsdevstudio@gmail.com"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "commander": "12.1.0",
+    "ora": "9.4.0",
+    "picocolors": "1.1.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
