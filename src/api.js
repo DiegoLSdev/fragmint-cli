@@ -2,7 +2,7 @@
 // Adds the bearer token, parses JSON, and surfaces server errors usefully.
 
 export async function apiRequest(cfg, method, pathname, body) {
-  const url = `${cfg.api.replace(/\/$/,  '')}${pathname}`;
+  const url = `${cfg.api.replace(/\/$/, '')}${pathname}`;
 
   const headers = {
     Authorization: `Bearer ${cfg.token}`,

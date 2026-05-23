@@ -1,12 +1,13 @@
 // `fm show <id>` — print snippet data to stdout. Pipe-friendly by design.
 //
-// Defaults to printing the code. Flags switch what gets dumped:
+// Defaults to printing the code (preserves v0.1.x behaviour, scripts keep
+// working). Flags switch what gets dumped:
 //   --notes       print the markdown notes attached to the snippet
 //   --json        print the full snippet object as JSON
 //   --meta        prepend title/lang/folder as comments above the code
 //
-// `--notes` and `--json` are mutually exclusive; `--meta` only applies
-// when printing code.
+// `--notes` and `--json` are mutually exclusive with each other; `--meta`
+// only applies when printing code.
 
 import { requireToken } from '../config.js';
 import { findSnippet } from '../snippets.js';

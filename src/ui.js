@@ -1,7 +1,8 @@
 // Shared UI helpers for the CLI.
 // - `spinner(text)`     — wrapper around ora with our defaults.
 // - `color`             — picocolors instance for direct colour access.
-// - `symbol`            — semantic glyphs (success, fail, info).
+// - `symbol`            — semantic glyphs (success, fail, info) re-exported
+//                          from ora's bundled log-symbols.
 // - `isTTY()`           — true when stdout is an interactive terminal.
 //
 // Design rule: anything that writes to stdout AS DATA (snippet code, JSON,

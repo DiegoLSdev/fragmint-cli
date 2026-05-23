@@ -1,6 +1,6 @@
 {
   "name": "@fragmint/cli",
-  "version": "0.1.2",
+  "version": "0.2.1",
   "description": "Command-line client for Fragmint — search, save, and reuse code snippets from your terminal.",
   "type": "module",
   "bin": {
@@ -33,7 +33,7 @@
     "access": "public"
   },
   "dependencies": {
-    "commander": "12.1.0",
+    "commander": "13.1.0",
     "ora": "9.4.0",
     "picocolors": "1.1.1"
   },
